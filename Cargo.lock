@@ -3954,6 +3954,7 @@ dependencies = [
  "toml",
  "tracing",
  "ty_ide",
+ "ty_project",
  "ty_python_semantic",
  "ty_vendored",
 ]
@@ -4057,6 +4058,7 @@ dependencies = [
  "thiserror 2.0.12",
  "toml",
  "tracing",
+ "ty_project",
  "ty_python_semantic",
  "ty_vendored",
 ]

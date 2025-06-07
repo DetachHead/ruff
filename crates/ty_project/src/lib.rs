@@ -27,6 +27,8 @@ use ty_python_semantic::types::check_types;
 use ty_python_semantic::{add_inferred_python_version_hint_to_diagnostic, register_lints};
 
 pub mod combine;
+#[cfg(feature = "testing")]
+pub mod pull_types_visitor;
 
 mod db;
 mod files;
